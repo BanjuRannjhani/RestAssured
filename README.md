@@ -48,31 +48,8 @@ Once finished, there will be reports in ./target/cucumber-reports/* folder.
 * HTML file: ./target/cucumber-reports/html/index.html
 
 ---
-## 5. Jenkins (CI/CD) Integration setup guideline
-In your new Jenkins Job:
+## 5. Key Pointers
 
-5.1) Under Git Integration: pull source code from github:
-        
-```git
-git clone git@github.com:BanjuRannjhani/RestAssured.git
-```
-
-5.2) Add step: to run maven (build and run goal as 'test')
-
-Two options:  
-
-   * Run with the 'default' tags under <code> Cucumber.options {...} </code> in testRunner.java
-        ```batch
-        mvn test 
-        ```  
-   * Run with selective tags by passing parameters as below 
-        
-        ```batch
-        mvn test -Dcucumber.options="--tags @regression"
-        ```
-
-5.3). If needed, JUnit and HTML reports can be used for further integration
-* JUnit file: ./target/cucumber-reports/Cucumber.xml 
-* HTML file: ./target/cucumber-reports/html/index.html
-
- 
+5.1) I have used properties file for load token and parameters. So that user can change it accordignly. Maintainability: adding new tests and changing existing ones will be ease.
+5.2) Report is generate based on html.        
+`
