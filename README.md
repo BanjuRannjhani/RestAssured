@@ -50,6 +50,6 @@ Once finished, there will be reports in ./target/cucumber-reports/* folder.
 ---
 ## 5. Key Pointers
 
-5.1) I have used properties file for load token and parameters. So that user can change it accordignly. Maintainability: adding new tests and changing existing ones will be ease.
-5.2) Report is generate based on html.        
-`
+I have used properties file for load token and parameters. So that user can change it accordignly. Maintainability: adding new tests and changing existing ones will be ease.
+
+Report is generate based on html.        
