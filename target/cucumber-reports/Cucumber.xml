@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="16.529">
+<testcase classname="Validating Weather of Place API's" name="AC1 : Verify the weather using latitute and longitude parameters" time="9.746">
+<system-out><![CDATA[When I call the api with POST https request "LatitudeandLongitude" and validate status OK.passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating Weather of Place API's" name="AC2 : Verify the weather using postcode parameters" time="6.49">
+<system-out><![CDATA[When I call the api with POST https request "PostCode" and validate status OK.passed
+]]></system-out>
+</testcase>
+</testsuite>
