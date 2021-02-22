@@ -23,7 +23,7 @@ Then tests can be run as mentioned in the next step.
 
 > Note: Git client and Maven are required to setup and run
 > * [Git Installation](https://www.atlassian.com/git/tutorials/install-git)
-> * [Apache Maven Installation](http://maven.apache.org/install.html/) 
+> * [Apache Maven Installation](https://maven.apache.org/download.cgi) 
 --- 
 
 ## 3. How to run tests and generate reports
