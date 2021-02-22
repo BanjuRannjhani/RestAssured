@@ -41,7 +41,8 @@ This command will run only any scenario(in feature files) with tag as '@regressi
 Once finished, there will be reports in ./target/cucumber-reports/* folder.   
 
 ---
-
+ Note: If error persists while excuting via command prompt, please install eclipse and trigger the runner class by importing the project. I was facing difficulties while trigger from my laptop1 as a maven command, whereas in my laptop2 it executed successfully. However launching via eclipse was successfull in both the machines.
+ 
 ## 4. Where to find reports
 
 * XML file: ./target/cucumber-reports/Cucumber.xml
